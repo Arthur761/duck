@@ -23,7 +23,7 @@ app.wm_attributes("-transparentcolor", "white")
 app.lift()
 app.wm_attributes("-topmost", True)
 app.wm_attributes("-disabled", True)
-#app.overrideredirect(1)
+app.overrideredirect(1)
 
 canvas = Canvas(app, bg="white", height=height, width=width, bd=0, relief='ridge')
 canvas.pack()
